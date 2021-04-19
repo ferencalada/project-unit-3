@@ -12,3 +12,8 @@ Git log -2                            shows the last commit
 Git reset                             takes out of staging area
 git reset HEAD                        takes last commit out of staging area
 
+REMOTE REPOSITORY
+git remote add origin <link to remote repository>       adds a server where it is possible to push the commits
+git remote -v                                           list all configured remote repositories
+git pull                                                merge changes from remote repository to local
+Git push                                                send changes in local to remote repository
