@@ -24,4 +24,6 @@ Git fetch                                               shows the changes made t
 BRANCHES
 Git branch <branch name>                        create new branch
 Git checkout <branch name>                      move to a different branch
+Git branch -d <branch name>                     delete branch 
+Git merge <branch name>                         merges that branch into the main branch
 
