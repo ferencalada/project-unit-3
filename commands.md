@@ -21,3 +21,7 @@ Git push origin <branch name>                           send branch to remote re
 Git remote                                              shows the remote repository origin
 Git fetch                                               shows the changes made to a remote repository
 
+BRANCHES
+Git branch <branch name>                        create new branch
+Git checkout <branch name>                      move to a different branch
+
