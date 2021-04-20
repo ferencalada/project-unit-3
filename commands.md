@@ -17,3 +17,7 @@ git remote add origin <link to remote repository>       adds a server where it i
 git remote -v                                           list all configured remote repositories
 git pull                                                merge changes from remote repository to local
 Git push                                                send changes in local to remote repository
+Git push origin <branch name>                           send branch to remote repository
+Git remote                                              shows the remote repository origin
+Git fetch                                               shows the changes made to a remote repository
+
