@@ -41,5 +41,17 @@ cat                                            display lines of a file
 History                                        displays the commands that have been used so far
 	History
 dir                                            displays the directories in the current directory
-	Dir
+	dir
+ls                                             displays the directories and files inside the current
+	ls
+cd                                             enters a directory
+	cd directory
+cd ..                                          Moves back one directory
+	cd ..
+pwd                                            shows the current location of the user
+	pwd
+nano                                           opens an editor for files
+	nano filename
+vim                                            opens an editor for files
+	vim filename
 
