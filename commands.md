@@ -26,4 +26,20 @@ Git branch <branch name>                        create new branch
 Git checkout <branch name>                      move to a different branch
 Git branch -d <branch name>                     delete branch 
 Git merge <branch name>                         merges that branch into the main branch
+----------------------------------------------------------------------------------------------------------
+These are commands we learned for working in the command line:
+mkdir                                          create a new directory 
+	mkdir newdirectory                                    
+rmdir                                          remove directory
+	Rmdir newdirectory
+rm -r                                          remove directory & content
+	Rm -r newdirectory
+rm                                             remove
+	Rm filename
+cat                                            display lines of a file
+        cat filename
+History                                        displays the commands that have been used so far
+	History
+dir                                            displays the directories in the current directory
+	Dir
 
