@@ -3,9 +3,9 @@
 
 GIT CONFIG 
 - git config --global user.name             sets an username for the user 
--	git config --global user.name "ferencalada"
+>	git config --global user.name "ferencalada"
 - git config --global user.email            sets an email for the user
--	git config --global user.email user@gmail.com
+>	git config --global user.email user@gmail.com
 
 MORE GIT COMMANDS
 - git init                              is used to start a new local repository with git
