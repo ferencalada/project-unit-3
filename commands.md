@@ -1,4 +1,10 @@
 This is a compilation of the commands we've been using in git:
+GIT CONFIG
+git config --global user.name             sets an username for the user
+	git config --global user.name "ferencalada"
+git config --global user.email            sets an email for the user
+	git config --global user.email user@gmail.com
+MORE GIT COMMANDS
 git init                              is used to start a new local repository with git
 	git init
 git clone <link to repository>        is used to create a copy of an existing repository
@@ -48,6 +54,28 @@ git branch -d <branch name>                     delete branch
 	git branch -d main 
 git merge <branch name>                         merges that branch into the main branch
 	git merge second
+
+GITFLOW
+apt-get install git-flow                         install gitFlow in linux
+	apt-get install git-flow
+git flow init                                    initialize git flow
+	git flow init
+git flow feature start                           start a new feature branch and switch to it
+	git flow feature start MYFEATURE
+git flow feature finish                          merge feature branch to main develop branch
+	git flow feature finish MYFEATURE
+git flow feature publish                         push a feature branch to remote rep
+	git flow feature publish MYFEATURE
+git flow release start                           start a release
+	git flow release start MYRELEASE
+git flow release publish                         publish a release branch
+	git flow release publish MYRELEASE
+git flow release track                           track remote release
+	git flow release track MYRELEASE
+git flow release finish                          finish a release
+	git flow release finish MYRELEASE
+
+
 ----------------------------------------------------------------------------------------------------------
 These are commands we learned for working in the command line:
 mkdir                                          create a new directory 
