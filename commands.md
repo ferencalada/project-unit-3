@@ -1,9 +1,11 @@
 This is a compilation of the commands we've been using in git:
+
 GIT CONFIG
 git config --global user.name             sets an username for the user
 	git config --global user.name "ferencalada"
 git config --global user.email            sets an email for the user
 	git config --global user.email user@gmail.com
+
 MORE GIT COMMANDS
 git init                              is used to start a new local repository with git
 	git init
@@ -74,7 +76,6 @@ git flow release track                           track remote release
 	git flow release track MYRELEASE
 git flow release finish                          finish a release
 	git flow release finish MYRELEASE
-
 
 ----------------------------------------------------------------------------------------------------------
 These are commands we learned for working in the command line:
