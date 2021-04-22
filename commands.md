@@ -26,18 +26,28 @@ git reset HEAD                        takes last commit out of staging area
 
 REMOTE REPOSITORY
 git remote add origin <link to remote repository>       adds a server where it is possible to push the commits
+	git remote add origin https://github.com/github/training-kit.git
 git remote -v                                           list all configured remote repositories
+	git remote -v
 git pull                                                merge changes from remote repository to local
-Git push                                                send changes in local to remote repository
-Git push origin <branch name>                           send branch to remote repository
-Git remote                                              shows the remote repository origin
-Git fetch                                               shows the changes made to a remote repository
+	git pull
+git push                                                send changes in local to configured remote repository
+	git push
+git push origin <branch name>                           send branch to remote repository
+	git push origin main
+git remote                                              shows the remote repository origin
+	git remote
+git fetch                                               recuperates the changes made to a remote repository without making local changes
 
 BRANCHES
-Git branch <branch name>                        create new branch
-Git checkout <branch name>                      move to a different branch
-Git branch -d <branch name>                     delete branch 
-Git merge <branch name>                         merges that branch into the main branch
+git branch <branch name>                        create new branch
+	git branch main
+git checkout <branch name>                      move to a different branch
+	git checkout main
+git branch -d <branch name>                     delete branch
+	git branch -d main 
+git merge <branch name>                         merges that branch into the main branch
+	git merge second
 ----------------------------------------------------------------------------------------------------------
 These are commands we learned for working in the command line:
 mkdir                                          create a new directory 
